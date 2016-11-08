@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		907ED2591DD28082001AD4FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907ED2581DD28082001AD4FD /* AppDelegate.swift */; };
+		907ED25B1DD28082001AD4FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907ED25A1DD28082001AD4FD /* ViewController.swift */; };
+		907ED2601DD28082001AD4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907ED25F1DD28082001AD4FD /* Assets.xcassets */; };
+		907ED26D1DD28371001AD4FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 907ED26C1DD28371001AD4FD /* Default-568h@2x.png */; };
+		90D3AAF91DD2A09F00C65373 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3AAF81DD2A09F00C65373 /* TableViewController.swift */; };
+		90D3AAFB1DD2A2B100C65373 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D3AAFA1DD2A2B100C65373 /* TableViewCell.swift */; };
+		97BE169BEBA0732D520A5858 /* Pods_LearningSnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43477CE77DC1BE7B939340EA /* Pods_LearningSnapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43477CE77DC1BE7B939340EA /* Pods_LearningSnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningSnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		907ED2551DD28082001AD4FD /* LearningSnapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSnapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		907ED2581DD28082001AD4FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		907ED25A1DD28082001AD4FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		907ED25F1DD28082001AD4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		907ED2641DD28082001AD4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907ED26C1DD28371001AD4FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		90D3AAF81DD2A09F00C65373 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		90D3AAFA1DD2A2B100C65373 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		992D822034C0945E8AC0E2D3 /* Pods-LearningSnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningSnapKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningSnapKit/Pods-LearningSnapKit.debug.xcconfig"; sourceTree = "<group>"; };
+		B0CE987FB30C2EC11C26CAB1 /* Pods-LearningSnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningSnapKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningSnapKit/Pods-LearningSnapKit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		907ED2521DD28082001AD4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BE169BEBA0732D520A5858 /* Pods_LearningSnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B67194EE5AEA0AB1EC8E30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				992D822034C0945E8AC0E2D3 /* Pods-LearningSnapKit.debug.xcconfig */,
+				B0CE987FB30C2EC11C26CAB1 /* Pods-LearningSnapKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		907ED24C1DD28082001AD4FD = {
+			isa = PBXGroup;
+			children = (
+				907ED2571DD28082001AD4FD /* LearningSnapKit */,
+				907ED2561DD28082001AD4FD /* Products */,
+				01B67194EE5AEA0AB1EC8E30 /* Pods */,
+				C625DB1AB0BF94CF21AD3826 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		907ED2561DD28082001AD4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907ED2551DD28082001AD4FD /* LearningSnapKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		907ED2571DD28082001AD4FD /* LearningSnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				907ED2581DD28082001AD4FD /* AppDelegate.swift */,
+				907ED25A1DD28082001AD4FD /* ViewController.swift */,
+				90D3AAF81DD2A09F00C65373 /* TableViewController.swift */,
+				90D3AAFA1DD2A2B100C65373 /* TableViewCell.swift */,
+				907ED25F1DD28082001AD4FD /* Assets.xcassets */,
+				907ED26C1DD28371001AD4FD /* Default-568h@2x.png */,
+				907ED2641DD28082001AD4FD /* Info.plist */,
+			);
+			path = LearningSnapKit;
+			sourceTree = "<group>";
+		};
+		C625DB1AB0BF94CF21AD3826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43477CE77DC1BE7B939340EA /* Pods_LearningSnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		907ED2541DD28082001AD4FD /* LearningSnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907ED2671DD28082001AD4FD /* Build configuration list for PBXNativeTarget "LearningSnapKit" */;
+			buildPhases = (
+				2770BE509B376E399AB5031C /* [CP] Check Pods Manifest.lock */,
+				907ED2511DD28082001AD4FD /* Sources */,
+				907ED2521DD28082001AD4FD /* Frameworks */,
+				907ED2531DD28082001AD4FD /* Resources */,
+				BD21C86DECA8AD3205AE0927 /* [CP] Embed Pods Frameworks */,
+				287FA07176ED5193F6E41C45 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningSnapKit;
+			productName = LearningSnapKit;
+			productReference = 907ED2551DD28082001AD4FD /* LearningSnapKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		907ED24D1DD28082001AD4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = melorriaga;
+				TargetAttributes = {
+					907ED2541DD28082001AD4FD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K2RR2SL97M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 907ED2501DD28082001AD4FD /* Build configuration list for PBXProject "LearningSnapKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 907ED24C1DD28082001AD4FD;
+			productRefGroup = 907ED2561DD28082001AD4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				907ED2541DD28082001AD4FD /* LearningSnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		907ED2531DD28082001AD4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907ED2601DD28082001AD4FD /* Assets.xcassets in Resources */,
+				907ED26D1DD28371001AD4FD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2770BE509B376E399AB5031C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		287FA07176ED5193F6E41C45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningSnapKit/Pods-LearningSnapKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD21C86DECA8AD3205AE0927 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningSnapKit/Pods-LearningSnapKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		907ED2511DD28082001AD4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907ED25B1DD28082001AD4FD /* ViewController.swift in Sources */,
+				90D3AAFB1DD2A2B100C65373 /* TableViewCell.swift in Sources */,
+				90D3AAF91DD2A09F00C65373 /* TableViewController.swift in Sources */,
+				907ED2591DD28082001AD4FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		907ED2651DD28082001AD4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		907ED2661DD28082001AD4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		907ED2681DD28082001AD4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992D822034C0945E8AC0E2D3 /* Pods-LearningSnapKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2RR2SL97M;
+				INFOPLIST_FILE = LearningSnapKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = melorriaga.LearningSnapKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		907ED2691DD28082001AD4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CE987FB30C2EC11C26CAB1 /* Pods-LearningSnapKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K2RR2SL97M;
+				INFOPLIST_FILE = LearningSnapKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = melorriaga.LearningSnapKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		907ED2501DD28082001AD4FD /* Build configuration list for PBXProject "LearningSnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907ED2651DD28082001AD4FD /* Debug */,
+				907ED2661DD28082001AD4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907ED2671DD28082001AD4FD /* Build configuration list for PBXNativeTarget "LearningSnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907ED2681DD28082001AD4FD /* Debug */,
+				907ED2691DD28082001AD4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 907ED24D1DD28082001AD4FD /* Project object */;
+}
