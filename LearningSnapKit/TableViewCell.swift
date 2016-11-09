@@ -22,25 +22,24 @@ class TableViewCell: UITableViewCell {
         
         contentView.addSubview(customImageView)
         contentView.addSubview(customTextLabel)
+        
+        customImageView.snp.makeConstraints { make in
+            make.width.equalTo(80)
+            make.height.equalTo(80)
+            make.top.equalTo(contentView.snp.top).offset(10)
+            make.left.equalTo(contentView.snp.left).offset(10)
+        }
+        
+        customTextLabel.snp.makeConstraints { make in
+            make.top.equalTo(contentView.snp.top)
+            make.right.equalTo(contentView.snp.right).offset(-10)
+            make.bottom.equalTo(contentView.snp.bottom)
+            make.left.equalTo(customImageView.snp.right).offset(10)
+        }
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-    }
-    
-    override func layoutSubviews() {
-        customImageView.snp.makeConstraints { make in
-            make.width.equalTo(contentView).dividedBy(4)
-            make.top.equalTo(contentView.snp.top).offset(10)
-            make.bottom.equalTo(contentView.snp.bottom).offset(-10)
-            make.left.equalTo(contentView.snp.left).offset(10)
-        }
-        customTextLabel.snp.makeConstraints { make in
-            make.left.equalTo(customImageView.snp.right).offset(10)
-            make.right.equalTo(contentView.snp.right).offset(-10)
-            make.top.equalTo(customImageView.snp.top)
-            make.bottom.equalTo(customImageView.snp.bottom)
-        }
     }
 
 }
